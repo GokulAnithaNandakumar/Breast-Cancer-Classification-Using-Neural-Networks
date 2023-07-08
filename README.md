@@ -1,7 +1,10 @@
 # Breast-Cancer-Classification-Using-Neural-Networks
-<img width="1092" alt="Screenshot 2023-07-08 at 1 28 22 PM" src="https://github.com/GokulAnithaNandakumar/Breast-Cancer-Classification-Using-Neural-Networks/assets/114865522/fa1f1b74-a33a-488e-a89a-4d6af9afdc5b">
 
 <img width="631" alt="Screenshot 2023-07-08 at 1 29 08 PM" src="https://github.com/GokulAnithaNandakumar/Breast-Cancer-Classification-Using-Neural-Networks/assets/114865522/726a5883-3a73-4745-8d1f-62d85e653f42">
+
+
+<img width="1092" alt="Screenshot 2023-07-08 at 1 28 22 PM" src="https://github.com/GokulAnithaNandakumar/Breast-Cancer-Classification-Using-Neural-Networks/assets/114865522/fa1f1b74-a33a-488e-a89a-4d6af9afdc5b">
+
 
 
 ALGORITHM
