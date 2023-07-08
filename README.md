@@ -1,37 +1,25 @@
 # Breast-Cancer-Classification-Using-Neural-Networks
-Here's a breakdown of the code:
+<img width="1092" alt="Screenshot 2023-07-08 at 1 28 22 PM" src="https://github.com/GokulAnithaNandakumar/Breast-Cancer-Classification-Using-Neural-Networks/assets/114865522/fa1f1b74-a33a-488e-a89a-4d6af9afdc5b">
 
-#Data loading and exploration:
+<img width="631" alt="Screenshot 2023-07-08 at 1 29 08 PM" src="https://github.com/GokulAnithaNandakumar/Breast-Cancer-Classification-Using-Neural-Networks/assets/114865522/726a5883-3a73-4745-8d1f-62d85e653f42">
 
-The Breast Cancer Wisconsin dataset is loaded from scikit-learn's datasets module.
-The data is converted to a pandas DataFrame for easier manipulation and exploration.
-Information about the data, such as shape and missing values, is printed.
-The target variable distribution is checked.
 
-#Data preprocessing:
+ALGORITHM
 
-The dataset is split into features (X) and labels (Y).
-The features are standardized using the StandardScaler from scikit-learn.
-The dataset is split into training and testing sets using train_test_split from scikit-learn.
-
-#Neural network model definition:
-
-A sequential model is defined using Keras.
-The model consists of a flatten layer to convert input data to a 1D array, a dense layer with ReLU activation, and a dense layer with sigmoid activation for binary classification.
-
-#Model compilation and training:
-
-The model is compiled with the Adam optimizer, sparse categorical cross-entropy loss, and accuracy metric.
-The model is trained on the standardized training data, with a validation split of 0.1 and 10 epochs.
-The training history is plotted to visualize the accuracy and loss.
-
-#Model evaluation:
-
-The model is evaluated on the standardized testing data, and the accuracy is printed.
-Prediction on a new data point:
-
-An example input data point is provided.
-The input data is standardized using the same scaler used for training data.
-The model predicts the probability of the input data belonging to each class (0 or 1).
-The predicted class label is determined using the argmax function.
-The predicted class label and interpretation are printed.
+1) Import the necessary libraries: numpy, pandas, matplotlib, sklearn.datasets, train_test_split, StandardScaler from sklearn, and tensorflow and keras from tensorflow.
+2) Load the breast cancer dataset using sklearn.datasets.load_breast_cancer().
+3) Create a pandas DataFrame from the dataset.
+4) Preprocess the data by adding the target column, checking for missing values, and analyzing the distribution of the target variable.
+5) Split the data into input features (X) and target variable (Y).
+6 )Split the data into training and testing sets using train_test_split().
+7) Scale the input features using StandardScaler.
+8) Set the random seed for reproducibility.
+9) Build the neural network model using keras.Sequential and add layers with the desired activation functions.
+10) Compile the model with the chosen optimizer, loss function, and metrics.
+11) Train the model using the training data, validating on a portion of the training data, and specifying the number of epochs.
+12) Evaluate the model's performance on the testing data and print the accuracy.
+13) Make predictions on the testing data and print the predicted probabilities and class labels.
+14) Define the input data for prediction.
+15) Transform and standardize the input data.
+16) Make predictions on the input data and print the predicted probabilities and class label.
+17) Display the accuracy and loss graphs using matplotlib.
